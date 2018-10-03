@@ -2,6 +2,18 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
+config :slackbot, Slackbot.Robot,
+  adapter: Hedwig.Adapters.Slack,
+  ## FILL IN YOUR BOT NAME HERE,
+  ## FILL IN YOUR BOT TOKEN HERE,
+  ## FILL IN YOUR BOT APP_KEY HERE,
+  rooms: ["automation"],
+  responders: [
+    {Hedwig.Responders.Help, []},
+    {Hedwig.Responders.Ping, []}
+  ]
+
+
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
 # file won't be loaded nor affect the parent project. For this reason,
