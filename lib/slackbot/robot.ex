@@ -1,3 +1,4 @@
+# This module deals with all slack communications and connections
 defmodule Slackbot.Robot do
   use Hedwig.Robot, otp_app: :slackbot
 

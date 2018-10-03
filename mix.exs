@@ -1,3 +1,4 @@
+# This file takes care of all your mix dependencies 
 defmodule Slackbot.MixProject do
   use Mix.Project
 
