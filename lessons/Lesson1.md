@@ -69,9 +69,9 @@ Mix is a Elixir executable which takes care of creating, compiling and running p
 
 6. Add your bot configuration to your config/config.exs file 
 
-7. Open up your terminal or command line to wherever your code folder is
+7. Open up your command line to where your code is
 
-8. Get all code dependencies with 'mix deps.get'
+8. Get all dependencies with 'mix deps.get'
 
 9. Compile your code with 'mix compile'
 
