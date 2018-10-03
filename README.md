@@ -18,12 +18,12 @@ The project will consist of approximately 6-7 workshops, with each workshop buil
 
 ### Workshop Breakdown
 
-1. Introduction to our tech stack, creating our first project, and environment/IDE setup
-2. Introduction to Elixir and writing our first bit of code
-3. Setting up a Slack workspace and creating our first Slackbot user
-4. Teaching our bot to listen for commands and respond to them
-5. Hooking up our backend to our bot and seeing it in action
-6. Using our bot to automate simple tasks and processes
-7. Explore the Waterloo Open Data API along with other possible integrations and features
+1. Introduction to our tech stack and bot/IDE setup
+2. Introduction to Elixir and Responders
+3. Writing slackbot commands 
+4. Writing slackbot commands (pt.2)
+5. Setting up bot notifications and reminders
+6. Further integrations and possiblities 
+7. TBD
 
  
