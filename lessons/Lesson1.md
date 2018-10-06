@@ -1,4 +1,4 @@
-Day 1 
+Week 1 
 =====
 
 ## Plan for Today
