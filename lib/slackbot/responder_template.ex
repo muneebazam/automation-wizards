@@ -1,4 +1,4 @@
-defmodule MyApp.Responders.GreatSuccess do
+defmodule Slackbot.Responders.GreatSuccess do
   @moduledoc """
   Borat, Great Success!
 
