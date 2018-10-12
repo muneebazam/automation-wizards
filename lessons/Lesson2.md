@@ -5,8 +5,7 @@ Week 2
 
 1. Recap of Week 1
 2. Git cycle
-3. Pattern Matching
-4. Responders
+3. Responders + Pattern Matching
 5. Survey 
 
 ## Breakdown of Tasks
@@ -20,7 +19,17 @@ Lastlly, we will look at how a Hedwig responder works and get a chance to build 
 ## Instructions
 
 ### Git
+1. Get your Git accounts setup
+2. Add as collaborators 
+3. Create a branch for your project
+4. Add + Commit your code change
+5. Pull Requests and Merging (Later)
 
+### Responders 
+1. Git pull the responder template
+2. Fill in code to create your own responder
+3. Use pattern matching to parse text
+4. Compile and Run your code!
 
 ## Important Links and Resources
 
