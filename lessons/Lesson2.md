@@ -19,7 +19,7 @@ Lastlly, we will look at how a Hedwig responder works and get a chance to build 
 
 ## Instructions
 
-
+### Git
 
 
 ## Important Links and Resources
