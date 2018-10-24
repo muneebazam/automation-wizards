@@ -17,7 +17,7 @@ defmodule Slackbot.Responders.GreatSuccess do
   @usage """
   <text> (great success) - Replies with a random Borat image.
   """
-  hear ~r/great success(!)?/i, msg do
+  hear ~r/gfh/, msg do
     reply msg, random(@links)
   end
 end
