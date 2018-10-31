@@ -10,7 +10,7 @@ config :slackbot, Slackbot.Robot,
   # token: "Your Bot Token Goes Here",
   # Uncomment the line below, filling in your bot app_key
   # app_key: "Your Bot App Key Goes Here",
-fdsfsdfsdf
+  
   # NOTE: To get your bot's token and app_key go to the Slack API webpage and under your bot
   # click OAuth & Permissions and you will see two long tokens 
   # The Bot User OAuth Access Token is your Token
