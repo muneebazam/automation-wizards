@@ -19,7 +19,7 @@ This project will walk you through how to get a Slack bot up and running. This b
 The project will consist of six 90-minute workshops every Wednesday (with the exception of midterm week) from 6:30-8:00pm in Engineering 7 *(Behind E5 building)*
 
 
-### Workshop Breakdown
+## Workshop Breakdown
 
 1. Introduction to our tech stack and IDE setup
 2. Introduction to Slack API & Bot setup
