@@ -6,7 +6,7 @@ This project will walk you through how to get a simple bot for a social media pl
 
 ## Tech Stack
 
-1. Elixir (Language)
+1. Elixir (Language) ![](https://www.google.com/imgres?imgurl=https://avatars3.githubusercontent.com/u/1481354?s%3D280%26v%3D4&imgrefurl=https://github.com/elixir-lang&h=280&w=280&tbnid=-cTVjZKle6rERM:&q=elixir&tbnh=160&tbnw=160&usg=AI4_-kR5C2nQ4VGNgQupY7v-K7IRaC-zEw&vet=12ahUKEwjMuuLbrrrfAhWK14MKHa5OC3sQ9QEwAHoECAIQBg..i&docid=RToVdYVwldVB6M&sa=X&ved=2ahUKEwjMuuLbrrrfAhWK14MKHa5OC3sQ9QEwAHoECAIQBg)
 2. Phoenix (Web Routing Framework)
 3. Slack (Social Platform)
 
