@@ -72,7 +72,7 @@ Mix is an Elixir executable which takes care of creating, compiling and running 
 
 7. You will want to work on your own branch so go ahead and create one (more on this next week)
 
-```git branch <branch_name>```
+```git checkout <branch_name>```
 
 
 
