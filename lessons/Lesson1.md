@@ -54,6 +54,27 @@ Mix
 
 Mix is an Elixir executable which takes care of creating, compiling and running projects as well as managing depdencies. 
 
+## Clone Repo Instructions
+
+1. Navigate over to https://github.com/muneebazam/Wizards-of-Automation
+
+2. Hit the *Clone or Download* button and then select *Clone with HTTPS* (if not already selected)
+
+3. Copy the URL *(https://github.com/muneebazam/Wizards-of-Automation.git)*
+
+4. Create a folder on your computer to hold the project code
+
+5. Open up your command prompt (*terminal* for Mac users) and navigate to the folder you just created
+
+6. Type in *git clone* followed by the URL copied over from Git and hit enter
+
+```git clone https://github.com/muneebazam/Wizards-of-Automation.git```
+
+7. You will want to work on your own branch so go ahead and create one (more on this next week)
+
+```git branch <branch_name>```
+
+
 
 ## Bot Setup Instructions
 
