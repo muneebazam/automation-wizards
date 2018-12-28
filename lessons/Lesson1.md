@@ -54,6 +54,7 @@ Mix
 
 Mix is an Elixir executable which takes care of creating, compiling and running projects as well as managing depdencies. 
 
+
 ## Clone Repo Instructions
 
 1. Navigate over to https://github.com/muneebazam/Wizards-of-Automation
@@ -73,33 +74,6 @@ Mix is an Elixir executable which takes care of creating, compiling and running 
 7. You will want to work on your own branch so go ahead and create one (more on this next week)
 
 ```git checkout <branch_name>```
-
-
-
-## Bot Setup Instructions
-
-1. Install Elixir https://elixir-lang.org/install.html
-
-2. Create your app: *Slack -> Channel Settings -> Add an App -> Build -> Your Apps -> Create a New App*
-
-3. Create your bot: *Bot -> Add/Create Bot -> Add Bot User*
-
-4. Install your bot: *Install App to Workspace -> Authorize*
-
-5. Add ```{:hedwig_slack, "~> 1.0"}``` to your mix dependencies 
-
-6. Add your bot configuration to your *config.exs* file (under *config/* folder)
-
-7. Open up your command line and *cd* into the *Wizards-of-Automation* repository
-
-8. Get all dependencies: ```mix deps.get```
-
-9. Compile your code: ```mix compile```
-
-10. Run your code: ```mix run --no-halt```
-
-11. Go to slack and ping your bot by typing your bot's name as defined in *config.exs* followed by the word *'ping'*
-
 
 ## Extra Resources
 
