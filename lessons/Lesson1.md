@@ -30,26 +30,22 @@ VS Code IDE: https://code.visualstudio.com/download
 Slack is a internal communication platform for businesses. Think of it as Whatsapp or Messenger overloaded with business-oriented features.
 Unlike Whatsapp, it has a public API which helps provide support for creating bots and other applications to automate your workflow.
 
-Elixir
-------
+### Elixir
 
 Elixir is a functional programming language based on Erlang. (a much, much cooler version of Racket for you CS kids)
 Most of the groundwork for the bot (http requests, routing, etc) is encompassed in the Hedwig Slack Adapter which we will be building our bot on top of. (see below for details)
 
-Hedwig Slack Adapter
---------------------
+### Hedwig Slack Adapter
 
 An adapter which will handle requests and connections to between Slack and our bot. 
 Source: https://github.com/hedwig-im/hedwig_slack
 
-Phoenix 
--------
+### Phoenix
 
 Phoenix is a web development framework written in the functional programming language Elixir. Phoenix uses a server-side model-view-controller pattern to create scalable web applications.
 We won't be going over the details of how Phoenix works but may touch on it in more detail towards the end.
 
-Mix
----
+### Mix
 
 Mix is an Elixir executable which takes care of creating, compiling and running projects as well as managing depdencies. 
 
