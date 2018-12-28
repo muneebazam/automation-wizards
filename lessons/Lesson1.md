@@ -25,8 +25,7 @@ VS Code IDE: https://code.visualstudio.com/download
 
 ## Our Tech Stack
 
-Slack
------
+### Slack
 
 Slack is a internal communication platform for businesses. Think of it as Whatsapp or Messenger overloaded with business-oriented features.
 Unlike Whatsapp, it has a public API which helps provide support for creating bots and other applications to automate your workflow.
