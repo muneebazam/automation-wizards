@@ -1,21 +1,19 @@
 Week 1 
 =====
 
-## Plan for Today
+## Roadmap
 
-1. Get to know each other
+1. Icebreaker
 
 2. Project Overview
 
 3. Get On Slack
 
-4. Setup IDE
+4. IDE Setup
 
 5. Clone Repo
 
 6. Code Walk Through
-
-7. MAKE OUR BOTS
 
 ## Important Links
 
@@ -23,61 +21,63 @@ Sign-up Survey: https://www.surveymonkey.com/r/D95XKWQ
 
 Slack API: https://api.slack.com/apps
 
+VS Code IDE: https://code.visualstudio.com/download
+
 ## Our Tech Stack
 
 Slack
 -----
 
-Slack is a bussiness-oriented messaging application. Think of it as Whatsapp or Messenger overloaded with more features.
+Slack is a internal communication platform for businesses. Think of it as Whatsapp or Messenger overloaded with business-oriented features.
 Unlike Whatsapp, it has a public API which helps provide support for creating bots and other applications to automate your workflow.
-We will be working with the Slack API to communicate with our bot once we have it set up.
 
 Elixir
 ------
 
-Elixir is a functional programming language based on Erlang, think Racket but way cooler.
-Most of the groundwork for the bot (web routing, etc) has been setup already and so we won't be going into too much detail about that.
-
-Phoenix 
--------
-
-Phoenix is a web routing framework that is made to work very well with Elixir. 
-We won't be going over Phoenix and how it works but towards the end we can dive in deeper if needed.
+Elixir is a functional programming language based on Erlang. (a much, much cooler version of Racket for you CS kids)
+Most of the groundwork for the bot (http requests, routing, etc) is encompassed in the Hedwig Slack Adapter which we will be building our bot on top of. (see below for details)
 
 Hedwig Slack Adapter
 --------------------
 
-An adapter which will handle connections to Slack and vice versa and generate our bot for us. 
+An adapter which will handle requests and connections to between Slack and our bot. 
 Source: https://github.com/hedwig-im/hedwig_slack
+
+Phoenix 
+-------
+
+Phoenix is a web development framework written in the functional programming language Elixir. Phoenix uses a server-side model-view-controller pattern to create scalable web applications.
+We won't be going over the details of how Phoenix works but may touch on it in more detail towards the end.
 
 Mix
 ---
 
-Mix is a Elixir executable which takes care of creating, compiling and running projects as well as managing depdencies. 
+Mix is an Elixir executable which takes care of creating, compiling and running projects as well as managing depdencies. 
 
-## Setup Instructions
+
+## Bot Setup Instructions
 
 1. Install Elixir https://elixir-lang.org/install.html
 
-2. Create your app: Slack -> Channel Settings -> Add an App -> Build -> Your Apps -> Create a New App
+2. Create your app: *Slack -> Channel Settings -> Add an App -> Build -> Your Apps -> Create a New App*
 
-3. Create your bot: Bot -> Add/Create Bot -> Add Bot User
+3. Create your bot: *Bot -> Add/Create Bot -> Add Bot User*
 
-4. Install your bot: Install App to Workspace -> Authorize
+4. Install your bot: *Install App to Workspace -> Authorize*
 
-5. Add {:hedwig_slack, "~> 1.0"} to your mix dependencies 
+5. Add ```{:hedwig_slack, "~> 1.0"}``` to your mix dependencies 
 
-6. Add your bot configuration to your config/config.exs file 
+6. Add your bot configuration to your *config.exs* file (under *config/* folder)
 
-7. Open up your command line to where your code is
+7. Open up your command line and *cd* into the *Wizards-of-Automation* repository
 
-8. Get all dependencies with 'mix deps.get'
+8. Get all dependencies: ```mix deps.get```
 
-9. Compile your code with 'mix compile'
+9. Compile your code: ```mix compile```
 
-10. Run your code with 'mix run --no-halt'
+10. Run your code: ```mix run --no-halt```
 
-11. Go to slack and ping your bot by typing 'bot_name' ping
+11. Go to slack and ping your bot by typing your bot's name as defined in *config.exs* followed by the word *'ping'*
 
 
 ## Extra Resources
