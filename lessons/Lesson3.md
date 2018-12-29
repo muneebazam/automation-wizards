@@ -1,10 +1,9 @@
 Week 3
 ======
 
-## Schedule for Today
+## Roadmap
 
-1. Recap of Week 2
-2. Git Know-How
+1. 
 
 ## Breakdown of Tasks
 
