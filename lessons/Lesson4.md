@@ -15,24 +15,21 @@ Today we will dive deeper into responders, as well as see what regex is, and how
 
 A regular expression is a sequence of characters that define a search pattern. Usually used by string sarching algorithms, our responders will use regex to match certain phrases they are looking for. Regex is best learnt through examples so head over to the following link to learn more: *https://regexr.com/* 
 
-The bulk of today will be a live demo on how to send HTTP requests and interact with the Slack API. 
+The bulk of today will be a live demo on how to send HTTP requests and interact with the Slack API. HTTP, which stands for Hyper Text Transfer Protocol, is the underlying information transfer protocol used by the web. HTTP defines the standard for communication over the web, which we must follow in order to successfully communicate with any online resource, such as the slack API.
 
-## Instructions
+We will be using an HTTP client for Elixir called *HTTPosion* to have our bot interact with the Slack API. Slack requires data to be passed as JSON, which is where Elixir comes in handy since a map data structure in Elixir is simply a JSON object, requiring absolutely no data manipulation prior to sending HTTP requests. (Two thumbs up for Elixir?)
 
+## Interact with Slack API Instructions
 
+1. Head over to *https://github.com/edgurgel/httpoison* and follow the instructions for getting the HTTPoison dependency installed. 
 
-### Git
-1. Get your Git accounts setup
-2. Add as collaborators 
-3. Create a branch for your project
-4. Add + Commit your code change
-5. Pull Requests and Merging (Later)
+2. Verify HTTPosion has installed successfully by typing the following on your command line:
 
-### Responders 
-1. Git pull the responder template
-2. Fill in code to create your own responder
-3. Use pattern matching to parse text
-4. Compile and Run your code!
+```
+iex -S mix
+
+HTTPosion.start
+```
 
 ## Important Links and Resources
 
@@ -41,6 +38,10 @@ https://www.rexegg.com/regex-quickstart.html
 https://hexdocs.pm/hedwig/readme.html#building-responders
 
 https://api.slack.com/
+
+https://github.com/edgurgel/httpoison
+
+
 
 
 
