@@ -65,9 +65,6 @@ Mix is an Elixir executable which takes care of creating, compiling and running 
 
 ```git clone https://github.com/muneebazam/Wizards-of-Automation.git```
 
-7. You will want to work on your own branch so go ahead and create one (more on this next week)
-
-```git checkout <branch_name>```
 
 ## Extra Resources
 
