@@ -20,20 +20,41 @@ Once all branches are merged back into master, we will have a branch *(master)* 
 
 ## Git Instructions
 
-1. Navigate to the repository homepage *(https://github.com/muneebazam/Wizards-of-Automation)*
+1. Get your Git account setup so that I can add you as a project collaborator
 
-2. Click on the *branch* button, enter the name of the branch you wish to create and press *create*
+2. Navigate to the repository homepage *(https://github.com/muneebazam/Wizards-of-Automation)*
 
-3. Open up the project location in command line and switch to the branch you just created: ```git checkout <branch_name>```
+3. Click on the *branch* button, enter the name of the branch you wish to create and press *create*
 
-4. 
+4. Open up the project location in command line and switch to the branch you just created: ```git checkout <branch_name>```
 
-### Git
-1. Get your Git accounts setup
-2. Add as collaborators 
-3. Create a branch for your project
-4. Add + Commit your code change
-5. Pull Requests and Merging (Later)
+5. Duplicate and rename the *responder_template.ex* file located in *lib/slackbot/*
+
+6. Create your own responder by editing the following code block in the file:
+
+``` 
+hear ~r/hello/, msg do
+reply msg, "hey!"
+  end
+```
+
+7. Stage this file to be included in your next commit: ```git add <file_name>```
+
+8. Commit your changes: ```git commit -m "include a descriptive message!"```
+
+9. Push your changes back to the remote repository: ```git push```
+
+10. Navigate over to the repository homepage once again: *(https://github.com/muneebazam/Wizards-of-Automation)*
+
+11. Make sure your branch has been selected under the *branch* button
+
+12. Click *New Pull Request* 
+
+13. Verify that the *base* branch is master and that the only change is the responder file you just created.
+
+14. Click *Create Pull Request*
+
+15. Code Review at least 2 other pull requests! *(we'll do this together)
 
 ## Important Links and Resources
 
