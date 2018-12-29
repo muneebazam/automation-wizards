@@ -50,7 +50,7 @@ reply msg, "hey!"
 
 12. Click *New Pull Request* 
 
-13. Verify that the *base* branch is master and that the only change is the responder file you just created.
+13. Verify that the *base* branch is master and that the only change is the responder file you just created. Include reviewers if necessary. 
 
 14. Click *Create Pull Request*
 
