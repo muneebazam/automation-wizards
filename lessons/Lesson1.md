@@ -11,9 +11,8 @@ Week 1
 
 4. IDE Setup
 
-5. Clone Repo
+5. Clone + Setup Repo
 
-6. Code Walk Through
 
 ## Important Links
 
