@@ -31,7 +31,28 @@ iex -S mix
 HTTPosion.start
 ```
 
-3. 
+3. Create a file called *http_requests.ex* in the folder */lib/slackbot/*
+
+4. Make sure your *http_requests.ex* file looks identical to the code below:
+
+```
+defmodule Slackbot.Http_requests do
+  case HTTPoison.get("http://httparrot.herokuapp.com/get") do
+    {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
+      IO.puts body
+    {:ok, %HTTPoison.Response{status_code: 404}} ->
+      IO.puts "Not found :("
+    {:error, %HTTPoison.Error{reason: reason}} ->
+      IO.inspect reason
+  end
+end
+```
+
+5. Compile your code: ```mix compile```
+
+6. Run your code: ```mix run --no-halt```
+
+7. You should be able to see the response body from *http://httparrot.herokuapp.com/get* in your log output.
 
 ## Important Links and Resources
 
