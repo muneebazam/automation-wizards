@@ -15,7 +15,6 @@ defmodule Slackbot.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      applications: [:hedwig_slack],
       mod: {Slackbot.Application, []}
     ]
   end
