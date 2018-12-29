@@ -23,8 +23,7 @@ defmodule Slackbot.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:hedwig_slack, "~> 1.0"}
-      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_hexpm, "~> 0.3.0"}
     ]
   end
 end
