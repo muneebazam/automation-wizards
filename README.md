@@ -1,7 +1,7 @@
 # Wizards-of-Automation
 An introduction to Bots and Automation. 
 
-Offered as a part of Coffee N' Code F18 *(http://uwcoffeencode.com/)*
+Offered during Fall 2018 of UW Coffee N' Code *(http://uwcoffeencode.com/)*
 
 
 ## Overview
