@@ -1,7 +1,7 @@
-+++
-title = "Automation Wizards"
-weight = 99
-+++
+---
+title : Automation Wizards
+weight : 99
+---
 
 ## Coming Soon 
 
