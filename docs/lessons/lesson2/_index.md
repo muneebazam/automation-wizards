@@ -53,7 +53,7 @@ This folder contains the main application logic for our project. All the respond
 		 		
 6. Add your bot configuration to your *config.exs* file (under *config/* folder)		
 		 		
-7. Open up your command line and *cd* into the *Wizards-of-Automation* repository		
+7. Open up your command line and *cd* into the *Automation-Wizards* repository		
 		 		
 8. Get all dependencies: ```mix deps.get```		
 		 		

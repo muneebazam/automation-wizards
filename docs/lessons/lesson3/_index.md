@@ -24,7 +24,7 @@ Once all branches are merged back into master, we will have a branch *(master)* 
 
 1. Get your Git account setup so that I can add you as a project collaborator
 
-2. Navigate to the repository homepage *(https://github.com/muneebazam/Wizards-of-Automation)*
+2. Navigate to the repository homepage *(https://github.com/muneebazam/Automation-Wizards)*
 
 3. Click on the *branch* button, enter the name of the branch you wish to create and press *create*
 
@@ -46,7 +46,7 @@ reply msg, "hey!"
 
 9. Push your changes back to the remote repository: ```git push```
 
-10. Navigate over to the repository homepage once again: *(https://github.com/muneebazam/Wizards-of-Automation)*
+10. Navigate over to the repository homepage once again: *(https://github.com/muneebazam/Automation-Wizards)*
 
 11. Make sure your branch has been selected under the *branch* button
 
