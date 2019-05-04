@@ -3,7 +3,7 @@ An introduction to Bots and Automation.
 
 Offered during Fall 2018 of UW Coffee N' Code *(http://uwcoffeencode.com/)*
 
-
+[here](google.ca)
 ## Overview
 
 This project will walk you through how to get a Slack bot up and running. This bot will be taught to listen and reply to simple commands such as tell you the weather, date, or what classes you have today. We will also look into how to automate processes with our bot by using a cron-job-like scheduler *(quantum)* so that it can send us reminders and notifications.
