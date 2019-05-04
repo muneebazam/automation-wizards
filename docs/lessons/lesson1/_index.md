@@ -1,5 +1,7 @@
-Week 1 
-=====
+---
+title : Week 1
+weight : 1
+---
 
 ## Roadmap
 
@@ -46,7 +48,7 @@ We won't be going over the details of how Phoenix works but may touch on it in m
 
 ### Mix
 
-Mix is an Elixir executable which takes care of creating, compiling and running projects as well as managing depdencies. 
+Mix is an Elixir executable which takes care of creating, compiling and running projects, as well as managing depdencies. 
 
 
 ## Clone Repo Instructions
